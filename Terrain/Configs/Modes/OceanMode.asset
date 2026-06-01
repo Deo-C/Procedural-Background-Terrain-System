@@ -1,0 +1,40 @@
+﻿%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed8e693d8b9c6b6499502fb90e3082b0, type: 3}
+  m_Name: OceanMode
+  m_EditorClassIdentifier: Assembly-CSharp::TerrainModeConfig
+  modeName: Ocean
+  previewSprite: {fileID: 0}
+  noiseScale: 0.2
+  amplitude: 0.8
+  octaves: 3
+  persistence: 0.6
+  lacunarity: 2.2
+  noiseSeed: 0
+  baselineY: -0.5
+  minY: -1
+  maxY: 1
+  colorTheme: {fileID: 11400000, guid: 5f3eccaf1e3d2004b8dd3ff60985afff, type: 2}
+  parallaxLayerCount: 3
+  parallaxSpeedRatios:
+  - 0.05
+  - 0.3
+  - 0.1
+  silhouetteColorBack: {r: 0.03921569, g: 0.12156863, b: 0.22745098, a: 1}
+  silhouetteColorMid: {r: 0.10196079, g: 0.22745098, b: 0.32156864, a: 1}
+  silhouetteBackSpeedRatio: 0.15
+  silhouetteMidSpeedRatio: 0.4
+  silhouetteBackHeightMultiplier: 0.7
+  silhouetteMidHeightMultiplier: 0.85
+  silhouetteNoiseOffsetBack: 300
+  silhouetteNoiseOffsetMid: 600
+  detailConfig: {fileID: 11400000, guid: 927601797eea0894ba443c1636e98b3c, type: 2}
